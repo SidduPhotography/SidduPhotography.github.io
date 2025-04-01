@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await fetch("http://localhost:5000/api/images");
+        const response = await fetch("https://my-backend-6hi7.onrender.com/api/Images");
         const data = await response.json();
 
         if (data.images && data.images.length > 0) {
