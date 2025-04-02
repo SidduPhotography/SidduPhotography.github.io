@@ -283,7 +283,7 @@ img {
 
     .navbar a {
         font-size: 14px;
-        padding: 8px 10px;
+        padding: 0%;
     }
 }
 
@@ -294,7 +294,7 @@ img {
     }
 
     .navbar a {
-        margin: 0 15px; /* Add space between links */
+        margin: 0; /* Add space between links */
     }
 }
 
