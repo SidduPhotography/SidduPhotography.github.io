@@ -348,3 +348,24 @@ img {
     font-family: 'Outfit', sans-serif;
 }
 
+.SM{
+    font-family: 'Outfit', sans-serif;
+    font-size: 40;
+}
+
+.Youtube{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 25;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.yt{
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+}
+
