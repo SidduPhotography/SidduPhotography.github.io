@@ -251,7 +251,6 @@ img {
 }
 
 /* Basic Styles for Navigation */
-/* Basic Styles for Navigation */
 .navbar {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
@@ -265,12 +264,13 @@ img {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar a:hover {
-    background-color: e7decc;
-    border-radius: 10px;
+    background-color: #575757;
+    border-radius: 5px;
+    border:solid;
 }
 
 /* Mobile Styles */
@@ -295,13 +295,6 @@ img {
 
     .navbar a {
         margin: 0 15px; /* Add space between links */
-    }
-}
-
-/* Desktop Styles */
-@media (min-width: 769px) {
-    .navbar {
-        justify-content: space-between;
     }
 }
 
