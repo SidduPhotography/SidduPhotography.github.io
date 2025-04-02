@@ -257,7 +257,7 @@ img {
     background-color: e7decc;
     padding: 2px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    border-radius: 5px;
+    border-radius: 30px;
     border-color: #000000;
     border: solid;
 }
