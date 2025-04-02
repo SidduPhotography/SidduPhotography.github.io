@@ -109,7 +109,8 @@ a {
     font-size: 14px;
     font-family: 'Outfit', sans-serif;
     text-align: center;
-    border:none;
+    border: none;
+    cursor: pointer;
 }
 
 .download-btn:hover {
