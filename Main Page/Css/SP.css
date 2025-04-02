@@ -250,5 +250,45 @@ img {
     }
 }
 
+/* Basic Styles for Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-around;  /* Spread links across the navbar */
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;  /* Align items in a row for mobile */
+        justify-content: center;  /* Center align menu items */
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+    .navbar {
+        justify-content: space-between;
+    }
+}
 
 
