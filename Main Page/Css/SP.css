@@ -107,14 +107,14 @@ a {
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px; /* Spacing between images */
     justify-content: center;
-    gap: 15px;
-    padding: 20px;
 }
+
 .gallery-item {
-    display: inline-block;
-    text-align: center;
+    width: calc(33.33% - 10px); /* 3 images per row */
 }
+
 .gallery-img {
     width: 200px;
     height: auto;
@@ -152,4 +152,21 @@ a {
 
 
 
+
+
 /*Cloudinary Code For Gallery CODE ENDS HERE*/
+
+
+img, video {
+    max-width: 100%;  /* Prevents overflow */
+    height: auto;      /* Maintains natural aspect ratio */
+    display: block;    /* Removes extra space under images */
+}
+
+
+
+@media (max-width: 600px) {
+    .gallery-item {
+        width: 100%; /* Makes images full-width on small screens */
+    }
+}
