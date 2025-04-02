@@ -300,5 +300,50 @@ img {
         padding: 2;
     }
 }
+/*Navigation Ends*/
 
+.H-2{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Wallpaper_btn{
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.H-3{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size: 35;
+    padding-left: 50;
+
+}
+
+.P-2{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20;
+    padding-left: 80;
+}
+
+.CR{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
 
