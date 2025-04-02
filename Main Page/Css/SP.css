@@ -256,7 +256,7 @@ img {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
-    background-color: #333;
+    background-color: d8d0c2;
     padding: 10px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
@@ -269,8 +269,8 @@ img {
 }
 
 .navbar a:hover {
-    background-color: #575757;
-    border-radius: 5px;
+    background-color: e6e5d6;
+    border-radius: 10px;
 }
 
 /* Mobile Styles */
