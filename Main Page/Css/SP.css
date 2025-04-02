@@ -256,7 +256,7 @@ img {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
-    background-color: e7decc;
+    background-color: #333;
     padding: 10px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
