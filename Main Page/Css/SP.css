@@ -256,20 +256,20 @@ img {
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
     background-color: #333;
-    padding: 10px;
+    padding: 0%;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 0%;
+    font-size: 14px;
 }
 
 .navbar a:hover {
     background-color: #575757;
-    border-radius: 5px;
+    border-radius: 10px;
     border:solid;
 }
 
