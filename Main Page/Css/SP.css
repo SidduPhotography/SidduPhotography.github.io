@@ -256,7 +256,7 @@ img {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
-    background-color: d8d0c2;
+    background-color: e7decc;
     padding: 10px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
@@ -269,7 +269,7 @@ img {
 }
 
 .navbar a:hover {
-    background-color: e6e5d6;
+    background-color: e7decc;
     border-radius: 10px;
 }
 
