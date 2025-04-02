@@ -188,3 +188,67 @@ a {
 }
 
 /* Add more media queries based on your design needs */
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 90%; /* Keeps it responsive */
+    max-width: 600px; /* Prevents it from being too wide on big screens */
+    max-height: 80vh; /* Limits height relative to screen */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide img {
+    width: auto; /* Maintain original width */
+    max-width: 100%; /* Prevents it from going wider than the screen */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 70vh; /* Limits height to 70% of screen */
+    display: block;
+    margin: auto; /* Centers the image */
+    border-radius: 10px;
+    object-fit: contain; /* Ensures full image is visible */
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .slideshow-container {
+        max-width: 90%; /* Make it smaller on mobile */
+        max-height: 60vh; /* Reduce height on smaller screens */
+    }
+
+    .slide img {
+        max-height: 50vh; /* Ensure it doesn’t take too much space on mobile */
+    }
+}
+
+
+
