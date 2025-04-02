@@ -107,12 +107,13 @@ a {
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Outfit', sans-serif;
     text-align: center;
+    border:none;
 }
 
 .download-btn:hover {
-    background-color: #555;
+    background-color: black;
 }
 
 .loader {
