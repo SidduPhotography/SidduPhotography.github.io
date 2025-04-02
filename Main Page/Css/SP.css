@@ -251,12 +251,14 @@ img {
 }
 
 /* Basic Styles for Navigation */
+/* Basic Styles for Navigation */
 .navbar {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
     background-color: #333;
     padding: 10px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .navbar a {
@@ -276,11 +278,23 @@ img {
     .navbar {
         flex-direction: row;  /* Align items in a row for mobile */
         justify-content: center;  /* Center align menu items */
+        flex-wrap: nowrap;  /* Prevent items from wrapping in mobile view */
     }
 
     .navbar a {
         font-size: 14px;
         padding: 8px 10px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+    .navbar {
+        justify-content: center; /* Center align items for desktop */
+    }
+
+    .navbar a {
+        margin: 0 15px; /* Add space between links */
     }
 }
 
