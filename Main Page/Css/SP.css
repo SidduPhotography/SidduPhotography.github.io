@@ -250,27 +250,29 @@ img {
     }
 }
 
-/* Basic Styles for Navigation */
 .navbar {
     display: flex;
     justify-content: space-around;  /* Spread links across the navbar */
     align-items: center;
-    background-color: #333;
-    padding: 0%;
+    background-color: e7decc;
+    padding: 2px;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    border-radius: 5px;
+    border-color: #000000;
+    border: solid;
 }
 
 .navbar a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 0%;
-    font-size: 14px;
+    padding-right:5;
+    font-size: 16px;
 }
 
 .navbar a:hover {
-    background-color: #575757;
-    border-radius: 10px;
-    border:solid;
+    background-color: #b8b2a6;
+    border-radius: 5px;
+    
 }
 
 /* Mobile Styles */
@@ -283,7 +285,7 @@ img {
 
     .navbar a {
         font-size: 14px;
-        padding: 0%;
+        padding: 8px 10px;
     }
 }
 
@@ -294,7 +296,8 @@ img {
     }
 
     .navbar a {
-        margin: 0; /* Add space between links */
+        margin: 10;/* Add space between links */
+        padding: 2;
     }
 }
 
